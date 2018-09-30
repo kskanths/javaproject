@@ -9,6 +9,7 @@ public class AppTest
 	@Test
 	public void testApp()
     {
+		System.out.println("Executing....");
         assertEquals(0,new App().calculateSomething());
     }
 }
