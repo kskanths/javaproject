@@ -12,4 +12,9 @@ public class AppTest
 		System.out.println("Executing....");
         assertEquals(0,new App().calculateSomething());
     }
+	@Test
+	public void testFinal()
+	{
+		System.out.println("Final");
+	}
 }
